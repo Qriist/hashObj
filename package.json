@@ -1,8 +1,9 @@
 ﻿{
 	"author": "Qriist",
 	"dependencies": {
-		"Qriist/GetFilePathFromFileObject": "github:Qriist/GetFilePathFromFileObject@032aac0 --main Lib\\GetFilePathFromFileObject.ahk",
-		"Qriist/hash": "github:Qriist/hash@18302f1 --main hash.ahk"
+		"Qriist/GetFilePathFromFileObject": "github:Qriist/GetFilePathFromFileObject --main Lib\\GetFilePathFromFileObject.ahk",
+		"Qriist/hash": "github:Qriist/hash --main hash.ahk",
+		"Qriist/hashObj": "github:Qriist/hashObj --main Lib\\hashObj.ahk"
 	},
 	"description": "Object in, hash out.",
 	"license": "",

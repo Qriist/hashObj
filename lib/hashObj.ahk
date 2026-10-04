@@ -1,8 +1,9 @@
 #Requires AutoHotkey v2.0
-#include <Aris/Qriist/hash> ; github:Qriist/hash@18302f1 --main hash.ahk
 #Module hashObj
+#include <Aris/Qriist/hash> ; github:Qriist/hash@18302f1 --main hash.ahk
+#include <Aris/Qriist/GetFilePathFromFileObject> ; github:Qriist/GetFilePathFromFileObject@f2169b9 --main Lib\GetFilePathFromFileObject.ahk
 #Import hash {*}
-#include <Aris/Qriist/GetFilePathFromFileObject> ; github:Qriist/GetFilePathFromFileObject@032aac0 --main Lib\GetFilePathFromFileObject.ahk
+#Import GetFilePathFromFileObject {*}
 
 Export Default hashObj(inObj, nohash := 0, resultArr := [], ptrMap := Map(), top := 1) {
 
