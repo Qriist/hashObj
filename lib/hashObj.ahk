@@ -83,7 +83,7 @@ Export Default hashObj(inObj, nohash := 0, resultArr := [], ptrMap := Map(), top
                     val := (!nohash ? hash(&inObj, "SHA512") : nohash = 1 ? "[BUFFER]" : hash(&inObj, "SHA512"))
                     resultArr.Push("+" inobj.size ":|:" val "=")
                 case "File":
-                    hashfile := _GetFilePathFromFileObject(inObj)
+                    hashfile := GetFilePathFromFileObject(inObj)
                     hashfile := FileOpen(hashfile, "r")
                     val := (!nohash ? hash(&hashfile, "SHA512") : nohash = 1 ? "[FILE]" : hash(&inObj, "SHA512"))
                     resultArr.Push("+" hashfile.Length ":-:" val "=")
