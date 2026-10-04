@@ -1,0 +1,12 @@
+﻿{
+	"author": "Qriist",
+	"dependencies": {
+
+	},
+	"description": "Object in, hash out.",
+	"license": "",
+	"main": "lib/hashobj.ahk",
+	"name": "hashObj",
+	"repository": "https://github.com/Qriist/hashObj",
+	"version": "v0.0.1"
+}
